@@ -17,4 +17,3 @@ test:
 
 docker-build:
 	@docker build . -t flask-app
-

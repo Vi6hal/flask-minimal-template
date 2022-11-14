@@ -1,4 +1,5 @@
 import pytest
+
 from api.app import app
 
 
@@ -10,4 +11,3 @@ def client():
 
 def test_index(client):
     assert client.get("/").status_code == 200
-
